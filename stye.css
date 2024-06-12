@@ -1,0 +1,49 @@
+.swiper {
+  width: 60%;
+  height: 10rem;
+  margin-top: 8rem;
+  /* background-color: brown; */
+}
+
+.swiper-wrapper {
+  display: flex;
+  /* margin-top: 5rem; */
+}
+
+.swiper-slide {
+  width: 16rem;
+  background-color: brown;
+}
+
+
+.swiper-button-next{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.swiper-button-prev{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.swiper-button-next:hover{
+    opacity: 1;
+}
+
+.swiper-button-prev:hover{
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .swiper mySwiper{
+
+  
+}
+}
+
+@media (min-width: 1600px) {
+  .swiper mySwiper{
+
+  
+}
+}
